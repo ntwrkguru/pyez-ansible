@@ -1,4 +1,4 @@
-FROM juniper/pyez:alpine
+FROM juniper/pyez
 MAINTAINER ntwrkguru@gmail.com
 
 RUN apk update && apk add ca-certificates \
